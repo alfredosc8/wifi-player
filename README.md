@@ -12,6 +12,8 @@ Well basically you bind a key on a numeric keypad to a certain streaming server 
 * Numeric keypad. Even though you might use regular keyboard just as well I prefer keypad for its lightweight size and esthetic value
 * Set of speakers, obviously ;-)
 
+Pictures of the hardware in use are shown on the [wiki](https://github.com/gedasm/wifi-player/wiki) page.
+
 # software part of the project
 
 Simply put wifi-player user **madplay** to play the streams, **wget** to pipe the stream into **madplay** via stdout and **triggerhappy** for binding keys to launch/stop the player. I'm putting all the scripts in /root since there's only one user in OpenWRT and it's root. You might find your homedir a better place depending on the platform you decide to use.
