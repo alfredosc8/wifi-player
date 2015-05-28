@@ -59,3 +59,5 @@ wget -q -O - http://address.of.your.station/128.mp3 | madplay - & echo $! > /tmp
 
 # few notes
 This D-Link router doesn't have enough flash memory to contain bigger software players, namely mpd/mpd. Using mpd you will find yourself not restricted to only mp3 streams anymore as mpd supports aac/ogg/wma too.
+
+And finally, turning the device into really a wireless player is as simple as configuring wireless client mode in OpenWRT.
